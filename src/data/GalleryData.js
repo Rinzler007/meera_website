@@ -1,0 +1,26 @@
+export const galleryData = [
+    {
+        src:"https://picsum.photos/200/300",
+        alt:"Image",
+    },
+    {
+        src:"https://picsum.photos/200/300",
+        alt:"Image",
+    },
+    {
+        src:"https://picsum.photos/200/300",
+        alt:"Image",
+    },
+    {
+        src:"https://picsum.photos/200/300",
+        alt:"Image",
+    },
+    {
+        src:"https://picsum.photos/200/300",
+        alt:"Image",
+    },
+    {
+        src:"https://picsum.photos/200/300",
+        alt:"Image",
+    }
+]
