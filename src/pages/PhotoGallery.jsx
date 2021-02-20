@@ -1,11 +1,18 @@
 import styled from "styled-components";
 import React from "react";
 import { galleryData } from "../data/GalleryData";
+import { SRLWrapper } from "simple-react-lightbox";
+import Pulse from "react-reveal/Fade";
 
 const GalleryWrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 1.5rem;
+  gap: 15px;
+  margin: auto;
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+  }
 `;
 const ImageComponent = styled.img`
   height: 300px;
@@ -15,6 +22,10 @@ const ImageComponent = styled.img`
   transition: 0.5s ease;
   &:hover {
     transform: scale(1.05);
+  }
+
+  @media screen and (max-width: 768px) {
+    height: 200px;
   }
 `;
 
@@ -48,32 +59,31 @@ const PhotoGallery = () => {
   return (
     <div>
       <Section>
-        <hr
-          style={{
-            color: "#fff",
-            height: "5px",
-          }}
-        />
-        <Heading>
-          Our Gallery
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
-            corrupti rem facere beatae magni voluptas sunt eum reprehenderit
-            similique tenetur?
-          </p>
-        </Heading>
-        <GalleryWrapper>
-          {galleryData.map((item, index) => {
-            return <ImageComponent src={item.src} alt={item.alt} key={index} />;
-          })}
-        </GalleryWrapper>
-        <hr
-          style={{
-            color: "#fff",
-            height: "5px",
-            marginTop:"4rem",
-          }}
-        />
+        <Pulse>
+          <Heading>
+            Our Gallery
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Voluptates corrupti rem facere beatae magni voluptas sunt eum
+              reprehenderit similique tenetur?
+            </p>
+          </Heading>
+        </Pulse>
+        <SRLWrapper>
+          <GalleryWrapper>
+            {galleryData.map((item, index) => {
+              return (
+                <a href={`/images/${item.src}`}>
+                  <ImageComponent
+                    src={`/images/${item.src}`}
+                    alt={item.alt}
+                    key={index}
+                  />
+                </a>
+              );
+            })}
+          </GalleryWrapper>
+        </SRLWrapper>
       </Section>
     </div>
   );

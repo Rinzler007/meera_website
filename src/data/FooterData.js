@@ -3,10 +3,10 @@ import {AiFillInstagram,AiFillGoogleCircle} from 'react-icons/ai';
 import {FiLinkedin} from 'react-icons/fi';
 
 export const columnOne = [
-    {title:"Our Story", link:"/story"},
-    {title:"Mission", link:"/mission"},
-    {title:"Vision", link:"/vision"},
-    {title:"Impact", link:"/impact"},
+    {title:"Our Story", link:"story"},
+    {title:"Mission", link:"mission"},
+    {title:"Vision", link:"vision"},
+    {title:"Impact", link:"impact"},
 ]
 export const columnTwo=[
     {title:"Events", link:"/events"},

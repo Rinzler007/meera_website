@@ -9,7 +9,7 @@ const HeroSection = styled.section`
   max-height: 1100px;
   position: relative;
   overflow: hidden;
-  transition:0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 `;
 
 const HeroWrapper = styled.div`
@@ -26,8 +26,8 @@ const HeroSlide = styled.div`
   z-index: 1;
   width: 100%;
   height: 100%;
-  transition:.5s ease-in;
-  opacity:${({active})=>(active?"1":"0")};
+  transition: 0.5s ease-in;
+  opacity: ${({ active }) => (active ? "1" : "0")};
 `;
 
 const HeroSlider = styled.div`
@@ -68,16 +68,16 @@ const HeroImage = styled.img`
 
 const HeroContent = styled.div`
   position: absolute;
-  z-index: 10;
+  z-index: 2;
   display: flex;
-  left:10vw;
+  left: 10vw;
   flex-direction: column;
   max-width: 1600px;
   width: calc(100%-100px);
   color: #fff;
 
   h1 {
-    font-size: clamp(3rem,8vw,4rem);
+    font-size: clamp(3rem, 8vw, 4rem);
     font-weight: 400;
     text-transform: uppercase;
     text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
@@ -91,11 +91,9 @@ const HeroContent = styled.div`
   }
 `;
 
-
 const Arrow = styled(IoMdArrowRoundForward)`
   margin-left: 0.5rem;
 `;
-
 
 const SliderButtons = styled.div`
   position: absolute;
@@ -150,17 +148,17 @@ const Hero = ({ slides }) => {
     console.log(current);
   };
 
-//   useEffect(() => {
-//     const nextSlide = () => {
-//       setCurrent((current) => (current === length - 1 ? 0 : current + 1));
-//     };
-//     timeout.current = setTimeout(nextSlide, 3000);
-//     return function () {
-//       if (timeout.current) {
-//         clearTimeout(timeout.current);
-//       }
-//     };
-//   }, [current, length]);
+  //   useEffect(() => {
+  //     const nextSlide = () => {
+  //       setCurrent((current) => (current === length - 1 ? 0 : current + 1));
+  //     };
+  //     timeout.current = setTimeout(nextSlide, 3000);
+  //     return function () {
+  //       if (timeout.current) {
+  //         clearTimeout(timeout.current);
+  //       }
+  //     };
+  //   }, [current, length]);
 
   if (!Array.isArray(slides) || slides.length <= 0) {
     return null;
@@ -170,16 +168,16 @@ const Hero = ({ slides }) => {
       <HeroWrapper>
         {slides.map((slide, index) => {
           return (
-            <HeroSlide key={index} active={index===current?true:false}>
+            <HeroSlide key={index} active={index === current ? true : false}>
               {index === current && (
-                <HeroSlider >
+                <HeroSlider>
                   <HeroImage src={slide.image} alt={slide.alt} />
                   <HeroContent>
                     <h1>{slide.title}</h1>
                     <p>{slide.description}</p>
                     <Button
-                      to={slide.path}
                       primary="true"
+                      to="/projects"
                       css={`
                         max-width: 160px;
                       `}
@@ -191,6 +189,7 @@ const Hero = ({ slides }) => {
                 </HeroSlider>
               )}
             </HeroSlide>
+            
           );
         })}
         <SliderButtons>

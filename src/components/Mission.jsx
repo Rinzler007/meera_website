@@ -5,7 +5,7 @@ import InfoSection from "./InfoSection";
 const Mission = () => {
   return (
     <div>
-      <InfoSection {...MissionData} height="500px"/>
+      <InfoSection {...MissionData} primary="true" height="500px"/>
     </div>
   );
 };

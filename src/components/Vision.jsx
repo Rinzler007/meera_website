@@ -5,7 +5,7 @@ import { VisionData } from "../data/InfoData";
 const Vision = () => {
     return (
         <div>
-         <InfoSection {...VisionData} primary="true" height="500px"/>
+         <InfoSection {...VisionData} />
         </div>
     )
 }

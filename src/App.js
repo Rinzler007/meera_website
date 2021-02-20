@@ -6,6 +6,9 @@ import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import PhotoGallery from "./pages/PhotoGallery";
 import Home from "./pages/Home";
 import Dropdown from "./components/Dropdown";
+import Contact from "./components/Contact";
+import About from "./pages/About";
+import Projects from "./pages/Projects";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,8 +30,10 @@ function App() {
             <Home toggle={toggle} />
           </Route>
           <Route exact path="/gallery" component={PhotoGallery} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/projects" component={Projects} />
         </Switch>
-        <Footer />
+        
       </Router>
     </div>
   );

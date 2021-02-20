@@ -24,13 +24,13 @@ const Heading = styled.div`
   text-align: center;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: #000d1a;
   font-size: clamp(2rem, 4vw, 3rem);
   font-weight: 600;
 
   p {
     margin-top: 20px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 400;
   }
 `;
@@ -41,7 +41,6 @@ const Impact = () => {
         paddingLeft: "5rem",
         paddingRight: "5rem",
         marginBottom: "-8rem",
-        background: "#000d1a",
         paddingTop:"4rem",
       }}
     >
@@ -52,11 +51,13 @@ const Impact = () => {
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto id
             adipisci maxime officiis modi sit, dignissimos magnam voluptatum vel
             amet, similique aliquid nisi quis inventore dicta dolor
-            reprehenderit, aut accusamus. Lorem ipsum dolor sit amet consectetur
+            reprehenderit, aut accusamus. 
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur
             adipisicing elit. Ducimus officiis iusto, quos blanditiis cupiditate
-            qui vel unde labore error porro ipsa, odio exercitationem
-            voluptatibus iste recusandae quia, voluptatum minus nemo
-            necessitatibus dolorum pariatur! Suscipit doloremque id.
+            qui vel unde labore error porro ipsa, odio exercitationem.
           </p>
         </Heading>
       </Flip>
@@ -73,7 +74,7 @@ const Impact = () => {
                 lineWidth={40}
                 background="#363546"
                 animationDuration={1000}
-                animate
+                
               />
               <h3 style={{ marginTop: "-3rem", color: "#a5a9c0" }}>
                 {item.label}

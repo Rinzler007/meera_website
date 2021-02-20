@@ -1,26 +1,52 @@
 export const galleryData = [
     {
-        src:"https://picsum.photos/200/300",
-        alt:"Image",
+        id:"1",
+        src:"1.jpg",
+        tag:"Image",
     },
     {
-        src:"https://picsum.photos/200/300",
-        alt:"Image",
+        id:"2",
+        src:"2.jpg",
+        tag:"Image",
     },
     {
-        src:"https://picsum.photos/200/300",
-        alt:"Image",
+        id:"3",
+        src:"3.jpg",
+        tag:"Image",
     },
     {
-        src:"https://picsum.photos/200/300",
-        alt:"Image",
+        id:"4",
+        src:"4.jpg",
+        tag:"Image",
     },
     {
-        src:"https://picsum.photos/200/300",
-        alt:"Image",
+        id:"5",
+        src:"5.jpg",
+        tag:"Image",
     },
     {
-        src:"https://picsum.photos/200/300",
-        alt:"Image",
-    }
+        id:"6",
+        src:"6.jpg",
+        tag:"Image",
+    },
+    {
+        id:"7",
+        src:"7.jpg",
+        tag:"Image",
+    },
+    {
+        id:"8",
+        src:"8.jpg",
+        tag:"Image",
+    },
+    {
+        id:"9",
+        src:"9.jpg",
+        tag:"Image",
+    },
+    {
+        id:"10",
+        src:"10.jpg",
+        tag:"Image",
+    },
 ]
