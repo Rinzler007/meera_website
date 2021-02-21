@@ -6,7 +6,7 @@ import Fade from "react-reveal/Fade";
 const Section = styled.section`
   width: 100%;
   height: 100%;
-  padding: 4rem 4rem;
+  padding: 3rem 2rem;
   background-color: ${({ primary }) => (primary ? "#fff" : "#000d1a")};
 `;
 
