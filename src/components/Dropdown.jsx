@@ -90,8 +90,8 @@ const Dropdown = ({toggle, isOpen}) => {
             })}
           </DropdownMenu>
           <BtnWrap>
-            <Button primary="true" round="true" big="true" to="/contact">
-              Contact Us
+            <Button primary="true" round="true" big="true" to="/donate">
+              Donate Now
             </Button>
           </BtnWrap>
         </DropdownWrapper>
