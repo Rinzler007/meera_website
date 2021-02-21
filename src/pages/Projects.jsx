@@ -16,7 +16,7 @@ const Projects = () => {
         }}
       ></div>
       <InfoSection {...ProjData}/>
-      <CommonEvent data={ProjectData} primary="true"/>
+      <CommonEvent data={ProjectData} primary="true" project="true"/>
       <InfoSection {...ImpactData} />
       <CommonEvent primary="true" data={EventData}/>
       <Footer/>

@@ -47,7 +47,7 @@ const HeroImage = styled.img`
   width: 100vw;
   height: 100vh;
   object-fit: cover;
-  filter: blur(5px);
+  filter: brightness(0.5);
   transform: scale(1.1);
   &::before {
     content: "";

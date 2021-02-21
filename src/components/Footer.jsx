@@ -64,7 +64,7 @@ const FooterText = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 1rem;
-  font-size: clamp(1rem, 2vw, 1.2rem);
+  font-size: clamp(.8rem, 1.5vw, 1rem);
   color: #384053;
   bottom: 2px;
   font-weight: bold;
@@ -143,7 +143,7 @@ const Footer = ({ reverse }) => {
           <p>pehel.weforyou@gmail.com</p>
         </ColumnRight>
       </Container>
-      <FooterText>{"\u00A9"} DESIGNED BY VINEET UPADHYAY</FooterText>
+      <FooterText>{"\u00A9"} DESIGNED BY VINEET UPADHYAY (ENACTUS THAPAR)</FooterText>
     </Section>
   );
 };

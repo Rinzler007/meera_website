@@ -37,7 +37,7 @@ const CardContainer = styled.div`
   }
 `;
 
-const CommonEvent = ({ primary, data }) => {
+const CommonEvent = ({ primary, data, project }) => {
   return (
     <>
       <Section primary={primary}>
@@ -50,7 +50,7 @@ const CommonEvent = ({ primary, data }) => {
               color: `${!primary ? "#fff" : "#000d1a"}`,
             }}
           >
-            {!primary ? "OUR PROJECTS" : "OUR EVENTS"}
+            {project ? "OUR PROJECTS" : "OUR EVENTS"}
           </h1>
 
           <Container>
@@ -61,6 +61,7 @@ const CommonEvent = ({ primary, data }) => {
                     src={item.image}
                     primary={primary}
                     name={item.name}
+                    tag={project?item.tag:null}
                     description={item.description}
                   />
                 </CardContainer>

@@ -38,7 +38,7 @@ const Container = styled.div`
   text-align: center;
   overflow:hidden;
   h1 {
-    padding:10px;
+    padding:11px;
     transition: 0.3s ease;
     position: absolute;
     top: 50%;
@@ -48,9 +48,18 @@ const Container = styled.div`
     text-transform: uppercase;
     transform: translate(-50%, -50%);
   }
-
+  p{
+    transition: 0.3s ease;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    color: #fff;
+    font-style:italic;
+    font-size: clamp(.6rem, 1.5vw, 1.1rem);
+    transform: translate(-50%, -50%);
+  }
   &:hover {
-    h1 {
+    h1,p {
       filter:opacity(0);
     }
     ${Image}{
@@ -58,7 +67,7 @@ const Container = styled.div`
     }
   }
 `;
-const FlipCard = ({ src, primary, name, description }) => {
+const FlipCard = ({ src, primary, name, description,tag }) => {
   const [isFlipped, setisFlipped] = useState(false);
 
   const handleClick = (e) => {
@@ -71,6 +80,9 @@ const FlipCard = ({ src, primary, name, description }) => {
       <Container onClick={handleClick}>
         <Image src={src}  />
         <h1>{name}</h1>
+        {tag&&(
+          <p>{tag}</p>
+        ) }
       </Container>
 
       <Heading primary={primary} onClick={handleClick}>

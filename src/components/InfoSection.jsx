@@ -54,7 +54,7 @@ const ColumnRight = styled.div`
     order: ${({ reverse }) => (reverse ? "2" : "1")};
   }
   img {
-    width: 90%;
+    width: ${({ about }) => (about ? "65%" : "90%")};
     height: 100%;
     object-fit: cover;
     border-radius:10px;
@@ -74,6 +74,7 @@ const InfoSection = ({
   image,
   primary,
   height,
+  about,
 }) => {
   return (
     <Section primary={primary}>
@@ -89,7 +90,7 @@ const InfoSection = ({
           </ColumnLeft>
         </Fade>
         <Fade right>
-          <ColumnRight reverse={reverse}>
+          <ColumnRight reverse={reverse} about={about}>
             <img src={image} alt="home" />
           </ColumnRight>
         </Fade>
