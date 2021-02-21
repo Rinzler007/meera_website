@@ -92,7 +92,7 @@ const Footer = ({ reverse }) => {
     <Section>
       <Container>
         <ColumnLeft>
-          <h1 style={{ marginLeft: "8px" }}>PEHEL - We For You.</h1>
+          <h1 style={{ marginLeft: "8px" }}>PEHEL - We For You</h1>
           <h2
             style={{
               marginTop: "1rem",

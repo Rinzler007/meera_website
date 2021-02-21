@@ -43,7 +43,7 @@ export const VisionData = {
 export const ProjData = {
   heading: "Striving Together",
   paragraphOne:
-    "PEHEL: WE FOR YOU has always actively taken steps towards raising awareness about issues that society might not consider appropriate to talk about",
+    "PEHEL - WE FOR YOU has always actively taken steps towards raising awareness about issues that society might not consider appropriate to talk about",
   paragraphTwo:
     "We, the young torch bearers of the society, have taken an initiative to work for the upliftment of the people, by the people and for the people. We are dedicated individuals trying to initiate change by empowering our society.",
   buttonLabel: "Know More",
@@ -55,7 +55,7 @@ export const ProjData = {
 export const ImpactData = {
   heading: "Creating Impact",
   paragraphOne:
-    "PEHEL- We For You has been working tirelessly on different projects to make a world a better place to live in. Team PEHEL has worked towards Educating, Empowering and Enlightening the masses through awareness programs, educational sessions, campaigns and events.",
+    "PEHEL - We For You has been working tirelessly on different projects to make a world a better place to live in. Team PEHEL has worked towards Educating, Empowering and Enlightening the masses through awareness programs, educational sessions, campaigns and events.",
   paragraphTwo:
     "Project Ujjwala has impacted more than 1500+ lives in the underprivileged section of the society which involves distribution of clothes, masks, sanitizers, diyas, candles.Project E-Basta has set a benchmark. Both the phases equipped more than 15 students towards a better livelihood. One phone, One teacher and a child changed a room into a classroom. Thus, creating and building a better life.",
   buttonLabel: "Know More",

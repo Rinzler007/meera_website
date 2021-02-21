@@ -17,7 +17,7 @@ export const ProjectData = [
         "With a mission to educate for change, our Team works to provide basic education to the underprivileged children.",
     },
     {
-      name: "Project E-Basta",
+      name: "Project  E-Basta",
       image: ebasta,
       description:
         "Coming under the umbrella of Project Basta, the project aims to spread and deliver education to underprivileged children digitally.",
