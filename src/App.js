@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Dropdown from "./components/Dropdown";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
+import Donate from "./pages/Donate";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,6 +30,7 @@ function App() {
           </Route>
           <Route exact path="/gallery" component={PhotoGallery} />
           <Route exact path="/about" component={About} />
+          <Route exact path="/donate" component={Donate} />
           <Route exact path="/projects" component={Projects} />
         </Switch>
       </Router>

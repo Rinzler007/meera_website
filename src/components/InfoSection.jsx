@@ -75,16 +75,35 @@ const InfoSection = ({
   primary,
   height,
   about,
+  donate,
+  name,
+  acc,
+  ifsc,
+  bank,
+  branch,
 }) => {
   return (
     <Section primary={primary}>
       <Container primary={primary} height={height}>
         <Fade left>
           <ColumnLeft primary={primary}>
+            {!donate?(
+              <div>
             <h1>{heading}</h1>
             <p>{paragraphOne}</p>
             <p>{paragraphTwo}</p>
-            <Button to="/projects" primary={primary}>
+              </div>
+             
+            ):  <div style={{lineHeight:"5px"}}>
+            <h1 style={{marginBottom:"50px"}}>{heading}</h1>
+            <p>{name}</p>
+            <p>{acc}</p>
+            <p>{ifsc}</p>
+            <p>{bank}</p>
+            <p>{branch}</p>
+              </div> }
+            
+            <Button to="/" primary={primary}>
               {buttonLabel}
             </Button>
           </ColumnLeft>

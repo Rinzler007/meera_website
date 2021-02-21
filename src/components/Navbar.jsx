@@ -129,8 +129,8 @@ const Navbar = ({ toggle }) => {
       </NavMenu>
       <NavMenu></NavMenu>
       <NavBtn>
-        <Button to="/about" primary="true">
-          Contact Us
+        <Button to="/donate" primary="true">
+          Donate Now
         </Button>
       </NavBtn>
     </Nav>

@@ -73,7 +73,7 @@ export const AboutData = {
     "PEHEL - We For You has been working tirelessly on different projects to make a world a better place to live in. Team PEHEL has worked towards Educating, Empowering and Enlightening the masses through awareness programs, educational sessions, campaigns and events.",
   paragraphTwo:
     "Project Ujjwala has impacted more than 1500+ lives in the underprivileged section of the society which involves distribution of clothes, masks, sanitizers, diyas, candles.Project E-Basta has set a benchmark. Both the phases equipped more than 15 students towards a better livelihood. One phone, One teacher and a child changed a room into a classroom. Thus, creating and building a better life.",
-  buttonLabel: "Know More",
+  buttonLabel: "Go Home",
   image: pehel,
   reverse: false,
   delay: 100,
@@ -85,8 +85,21 @@ export const StoryData = {
     "It is true that whenever we think to start something we question ourselves 100 times. Will I be able to do it? Is it my right action ? Am I made for this ? and so many more. It’s seems impossible until it’s done. It is not us who holds us back but our fear of the unknown. ",
   paragraphTwo:
     "Maybe we are cent percent sure about doing what we think but are somehow taken aback. It is very natural and it happens but what matters is that we don’t give up on our dreams, we defeat our fear, the reasons and that something which is holding us back. This happens quite a times. We are confident to do somethings but are somehow taken aback. It’s okay, It happens.",
-  buttonLabel: "Know More",
+  buttonLabel: "Go Home",
   image: story,
+  reverse: false,
+  delay: 100,
+};
+
+export const DonateData = {
+  heading: "Donate",
+  name:"Shyam Sunder",
+  acc:"Account No - 50100049746020",
+  ifsc:"IFSC - HDFC0000186 ",
+  bank:"Bank Name - HDFC BANK",
+  branch:"Branch - Exhibition Road Patna",
+  buttonLabel: "Go Home",
+  image: change,
   reverse: false,
   delay: 100,
 };
