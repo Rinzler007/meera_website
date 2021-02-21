@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import { IoMdArrowRoundForward } from "react-icons/io";
 import { IoArrowBack, IoArrowForward } from "react-icons/io5";
 import styled, { css } from "styled-components/macro";
-import { Button } from "./Button";
+import { Button, SliderButton } from "./Button";
 
 const HeroSection = styled.section`
   height: 100vh;
@@ -177,16 +177,16 @@ const Hero = ({ slides }) => {
                   <HeroContent>
                     <h1>{slide.title}</h1>
                     <p>{slide.description}</p>
-                    <Button
+                    <SliderButton
                       primary="true"
-                      to={{pathname: slide.path}}
+                      href={slide.path}
                       css={`
                         max-width: 160px;
                       `}
                     >
                       {slide.label}
                       <Arrow />
-                    </Button>
+                    </SliderButton>
                   </HeroContent>
                 </HeroSlider>
               )}

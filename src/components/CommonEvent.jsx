@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Fade from "react-reveal/Reveal";
+import FlipCard from "./FlipCard";
 
 const Section = styled.section`
   width: 100%;
@@ -18,35 +19,16 @@ const Container = styled.div`
   }
 `;
 
-const Image = styled.img`
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 10px 10px 0 0;
-
-  @media screen and (max-width: 768px) {
-    width: 100%;
-  }
-`;
-const Heading = styled.div`
-  position: relative;
-  color: ${({ primary }) => (primary ? "#e7e7e7" : "#000d1a")};
-  padding: 15px 15px;
-
-  h1 {
-    font-size: clamp(1rem, 2vw, 1.5rem);
-  }
-
-  p {
-    font-size: clamp(0.6rem, 2.02vw, 1.2rem);
-  }
-  margin-bottom: 10px;
-`;
 const CardContainer = styled.div`
   background: ${({ primary }) => (!primary ? "#fff" : "#000d1a")};
-  height: 450px;
+  height: 449px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
   border-radius: 12px;
   transition: 0.4s ease-in-out;
+  overflow:hidden;
+
   &:hover {
     transform: scale(1.04);
   }
@@ -54,39 +36,37 @@ const CardContainer = styled.div`
     height: 250px;
   }
 `;
+
 const CommonEvent = ({ primary, data }) => {
   return (
     <>
       <Section primary={primary}>
-      <Fade bottom>
-        <h1
-          style={{
-            textAlign: "center",
-            fontSize: "2.5rem",
-            marginBottom: "3rem",
-            color: `${!primary ? "#fff" : "#000d1a"}`,
-          }}
-        >
-          {!primary ? "OUR PROJECTS" : "OUR EVENTS"}
-        </h1>
-       
-        <Container>
-          {data.map((item, index) => {
-            return (
+        <Fade bottom>
+          <h1
+            style={{
+              textAlign: "center",
+              fontSize: "2.5rem",
+              marginBottom: "3rem",
+              color: `${!primary ? "#fff" : "#000d1a"}`,
+            }}
+          >
+            {!primary ? "OUR PROJECTS" : "OUR EVENTS"}
+          </h1>
+
+          <Container>
+            {data.map((item, index) => {
+              return (
                 <CardContainer primary={primary} key={index}>
-                  <div>
-                    <Image src={item.image}></Image>
-                    <Heading primary={primary}>
-                      <h1>{item.name}</h1>
-                      <br />
-                      <p>{item.description}</p>
-                    </Heading>
-                  </div>
+                  <FlipCard
+                    src={item.image}
+                    primary={primary}
+                    name={item.name}
+                    description={item.description}
+                  />
                 </CardContainer>
-              
-            );
-          })}
-        </Container>
+              );
+            })}
+          </Container>
         </Fade>
       </Section>
     </>

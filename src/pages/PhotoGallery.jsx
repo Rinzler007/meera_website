@@ -3,6 +3,7 @@ import React from "react";
 import { galleryData } from "../data/GalleryData";
 import { SRLWrapper } from "simple-react-lightbox";
 import Pulse from "react-reveal/Fade";
+import FlipCard from "../components/FlipCard";
 
 const GalleryWrapper = styled.div`
   display: grid;
@@ -87,6 +88,7 @@ const PhotoGallery = () => {
           </GalleryWrapper>
         </SRLWrapper>
       </Section>
+      <FlipCard/>
     </div>
   );
 };

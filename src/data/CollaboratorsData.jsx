@@ -10,7 +10,7 @@ import streedhan from "../images/collab/streedhan.jpeg";
 import trijog from "../images/collab/trijog.jpg";
 import vitamin_stree from "../images/collab/vitamin_stree.jpg";
 import WOC from "../images/collab/WOC.PNG";
-import youthformentalhealth from "../images/collab/youthformentalhealth.jpeg";
+import youthformentalhealth from "../images/collab/youthformentalhealth.jpg";
 
 export const CollaboratorsData = [
   {

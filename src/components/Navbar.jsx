@@ -127,6 +127,7 @@ const Navbar = ({ toggle }) => {
           </NavMenuLinks>
         ))}
       </NavMenu>
+      <NavMenu></NavMenu>
       <NavBtn>
         <Button to="/about" primary="true">
           Contact Us

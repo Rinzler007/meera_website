@@ -79,7 +79,7 @@ const Row = styled.div`
   gap: 1rem;
 `;
 
-const SocialLink = styled(Link)`
+const SocialLink = styled.a`
   transition: 0.5s ease;
   &:hover {
     transform: scale(1.1);
@@ -104,29 +104,27 @@ const Footer = ({ reverse }) => {
           </h2>
           <Row>
             <SocialLink
-              to={{
-                pathname:
-                  "https://instagram.com/pehel.weforyou?igshid=1flftpz01arw2",
-              }}
+              href=
+                  "https://instagram.com/pehel.weforyou?igshid=1flftpz01arw2"
             >
               <AiFillInstagram
                 style={{ color: "#cd853f", height: "40px", width: "40px" }}
               />
             </SocialLink>
-            <SocialLink to={{ pathname: " https://youtube.com/channel/UC9m7YFaeTpDNZoMvbygnACw" }}>
+            <SocialLink href=" https://youtube.com/channel/UC9m7YFaeTpDNZoMvbygnACw">
               <AiFillYoutube
                 style={{ color: "#cd853f", height: "40px", width: "40px" }}
               />
             </SocialLink>
             <SocialLink
-              to={{ pathname: "https://www.facebook.com/pehel.weforyou/" }}
+              href="https://www.facebook.com/pehel.weforyou/"
             >
               <FaFacebook
                 style={{ color: "#cd853f", height: "35px", width: "35px" }}
               />
             </SocialLink>
             <SocialLink
-              to={{ pathname: "https://www.linkedin.com/company/pehel" }}
+              href="https://www.linkedin.com/company/pehel"
             >
               <FiLinkedin
                 style={{ color: "#cd853f", height: "35px", width: "35px" }}
