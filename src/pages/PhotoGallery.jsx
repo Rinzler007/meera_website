@@ -63,9 +63,11 @@ const PhotoGallery = () => {
           <Heading>
             Our Gallery
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Voluptates corrupti rem facere beatae magni voluptas sunt eum
-              reprehenderit similique tenetur?
+              <i>
+                “Your mysterious young friend, whose name you have never told
+                me, but whose picture really fascinates me, never thinks.”
+              
+              <br /> <strong>- Oscar Wilde, The Picture of Dorian Gray</strong> </i>
             </p>
           </Heading>
         </Pulse>
@@ -73,9 +75,9 @@ const PhotoGallery = () => {
           <GalleryWrapper>
             {galleryData.map((item, index) => {
               return (
-                <a href={`/images/${item.src}`}>
+                <a href={`/images/img (${item.id}).jpeg`}>
                   <ImageComponent
-                    src={`/images/${item.src}`}
+                    src={`/images/img (${item.id}).jpeg`}
                     alt={item.alt}
                     key={index}
                   />

@@ -1,29 +1,32 @@
-import image from '../images/image1.jpg';
+import indiwalk from '../images/projects/indiwalk.jpg';
+import mental from '../images/projects/mental.jpg';
+import pride from '../images/projects/pride.jpg';
+import women from '../images/projects/women.jpg';
 
 export const EventData = [
     {
-      name: "Lorem Ipsum",
-      image: image,
+      name: "INDIWALK",
+      image: indiwalk,
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quibusdam, cumque fugiat incidunt quod asperiores?",
+        " A nation-wide fundraising virtual walkathon for *Women in Sports* to reduce the gender gap in sports.",
     },
     {
-      name: "Lorem Ipsum",
-      image: image,
+      name: "Mental Health Awareness",
+      image: mental,
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quibusdam, cumque fugiat incidunt quod asperiores?",
+        "Our campaign covering self-care tips, letters of hope, seeking help and countering depression",
     },
     {
-      name: "Lorem Ipsum",
-      image: image,
+      name: "PRIDE",
+      image: pride,
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quibusdam, cumque fugiat incidunt quod asperiores?",
+        "The team dedicated a week full of activities in the name of LGBTQ+ and celebrated pride month with great pomp and show.",
     },
     {
-      name: "Lorem Ipsum",
-      image: image,
+      name: "End Gender-Based Violence",
+      image: women,
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quibusdam, cumque fugiat incidunt quod asperiores?",
+        "A week long campaign, about creating awareness in the masses about the legal rights of women.",
     },
   ];
   

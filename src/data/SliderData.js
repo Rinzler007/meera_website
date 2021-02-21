@@ -1,39 +1,39 @@
-import ImageOne from '../images/image1.jpg';
-import ImageTwo from '../images/image2.jpg';
-import ImageThree from '../images/image3.jpg';
-import ImageFour from '../images/image4.jpg';
+import indiwalk from '../images/projects/indiwalk.jpg';
+import mahina from '../images/projects/mahina.jpeg';
+import ujjwala from '../images/projects/ujjwala.jpeg';
+import basta1 from '../images/projects/basta1.jpeg';
 
 export const SliderData=[
     {
-        title:'Project Naritva',
-        description:'Bio-degradable pads for everyone',
-        path: '/projects',
+        title:'INDIWALK',
+        description:'Chale Chal | 6th and 7th March 2021',
+        path: "https://www.townscript.com/e/indiwalk-pehel-we-for-you-114232",
+        label: 'Register Now',
+        image: indiwalk,
+        alt:'Event',
+    },
+    {
+        title:'Project Mahina',
+        description:'PERIODS CAN’T STOP US !!',
+        path: '/',
         label: 'View Project',
-        image: ImageOne,
+        image: mahina,
         alt:'Project',
     },
     {
-        title:'Project Meera',
-        description:'Recycling plastics, cleaning oceans',
-        path: '/projects',
+        title:'Project Basta',
+        description:'A MISSION TO EDUCATE FOR CHANGE',
+        path: '/',
         label: 'View Project',
-        image: ImageTwo,
+        image: basta1,
         alt:'Project',
     },
     {
-        title:'Project Entracer',
-        description:'Tracking Covid, saving lives',
-        path: '/projects',
+        title:'Project Ujjwala',
+        description:'EK DAAN ZARURAT-MANDO KE NAAM',
+        path: '/',
         label: 'View Project',
-        image: ImageThree,
-        alt:'Project',
-    },
-    {
-        title:'Project Paddy',
-        description:'Paddy Waste to Income',
-        path: '/projects',
-        label: 'View Project',
-        image: ImageFour,
+        image: ujjwala,
         alt:'Project',
     }
 ];

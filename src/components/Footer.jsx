@@ -1,16 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled, { css } from "styled-components/macro";
-import { columnOne, columnTwo } from "../data/FooterData";
 import { FaFacebook } from "react-icons/fa";
-import { AiFillInstagram, AiFillGoogleCircle } from "react-icons/ai";
+import { AiFillInstagram, AiFillYoutube } from "react-icons/ai";
 import { FiLinkedin } from "react-icons/fi";
 
 const Section = styled.section`
   width: 100%;
   height: 100%;
   padding: 4rem 2rem;
-  padding-bottom:25px;
+  padding-bottom: 25px;
   position: relative;
   background: #000d1a;
 `;
@@ -52,7 +51,7 @@ const ColumnRight = styled.div`
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  flex-direction:column;
+  flex-direction: column;
   border-left: thick solid #cd853f;
 
   @media screen and (max-width: 768px) {
@@ -60,15 +59,12 @@ const ColumnRight = styled.div`
   }
 `;
 
-
-
-
 const FooterText = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top:1rem;
-  font-size: clamp(1rem,2vw,1.2rem);
+  margin-top: 1rem;
+  font-size: clamp(1rem, 2vw, 1.2rem);
   color: #384053;
   bottom: 2px;
   font-weight: bold;
@@ -86,7 +82,7 @@ const Row = styled.div`
 const SocialLink = styled(Link)`
   transition: 0.5s ease;
   &:hover {
-    transform: scale(1.10);
+    transform: scale(1.1);
     cursor: pointer;
   }
 `;
@@ -96,7 +92,7 @@ const Footer = ({ reverse }) => {
     <Section>
       <Container>
         <ColumnLeft>
-          <h1 style={{ marginLeft: "8px" }}>Lorem ipsum dolor sit amet.</h1>
+          <h1 style={{ marginLeft: "8px" }}>PEHEL - We For You.</h1>
           <h2
             style={{
               marginTop: "1rem",
@@ -107,22 +103,31 @@ const Footer = ({ reverse }) => {
             Social Links :
           </h2>
           <Row>
-            <SocialLink to="">
-              <AiFillGoogleCircle
-                style={{ color: "#cd853f", height: "40px", width: "40px" }}
-              />
-            </SocialLink>
-            <SocialLink to="">
+            <SocialLink
+              to={{
+                pathname:
+                  "https://instagram.com/pehel.weforyou?igshid=1flftpz01arw2",
+              }}
+            >
               <AiFillInstagram
                 style={{ color: "#cd853f", height: "40px", width: "40px" }}
               />
             </SocialLink>
-            <SocialLink to="">
+            <SocialLink to={{ pathname: " https://youtube.com/channel/UC9m7YFaeTpDNZoMvbygnACw" }}>
+              <AiFillYoutube
+                style={{ color: "#cd853f", height: "40px", width: "40px" }}
+              />
+            </SocialLink>
+            <SocialLink
+              to={{ pathname: "https://www.facebook.com/pehel.weforyou/" }}
+            >
               <FaFacebook
                 style={{ color: "#cd853f", height: "35px", width: "35px" }}
               />
             </SocialLink>
-            <SocialLink to="">
+            <SocialLink
+              to={{ pathname: "https://www.linkedin.com/company/pehel" }}
+            >
               <FiLinkedin
                 style={{ color: "#cd853f", height: "35px", width: "35px" }}
               />
@@ -132,14 +137,12 @@ const Footer = ({ reverse }) => {
         <ColumnRight>
           <h1>Address :</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae
-            asperiores voluptas modi perferendis voluptatibus dolorum.
+            North -West Area of, Gandhi Maidan Rd,
+            <br /> Patna, Bihar-800001
           </p>
-          <br/>
-          <h1>
-            Mail Us :
-          </h1>
-          <p>you@example.com</p>
+          <br />
+          <h1>Mail Us :</h1>
+          <p>pehel.weforyou@gmail.com</p>
         </ColumnRight>
       </Container>
       <FooterText>{"\u00A9"} DESIGNED BY VINEET UPADHYAY</FooterText>

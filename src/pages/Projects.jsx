@@ -1,6 +1,6 @@
 import React from "react";
 import InfoSection from "../components/InfoSection";
-import { InfoData } from "../data/InfoData";
+import { ImpactData, ProjData } from "../data/InfoData";
 import Footer from "../components/Footer";
 import { ProjectData } from "../data/ProjectData";
 import CommonEvent from "../components/CommonEvent";
@@ -15,8 +15,9 @@ const Projects = () => {
           paddingBottom: "60px",
         }}
       ></div>
-      <InfoSection {...InfoData} primary="true"/>
-      <CommonEvent data={ProjectData}/>
+      <InfoSection {...ProjData}/>
+      <CommonEvent data={ProjectData} primary="true"/>
+      <InfoSection {...ImpactData} />
       <CommonEvent primary="true" data={EventData}/>
       <Footer/>
     </>

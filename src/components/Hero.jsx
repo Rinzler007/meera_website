@@ -47,6 +47,8 @@ const HeroImage = styled.img`
   width: 100vw;
   height: 100vh;
   object-fit: cover;
+  filter: blur(5px);
+  transform: scale(1.1);
   &::before {
     content: "";
     position: absolute;
@@ -177,7 +179,7 @@ const Hero = ({ slides }) => {
                     <p>{slide.description}</p>
                     <Button
                       primary="true"
-                      to="/projects"
+                      to={{pathname: slide.path}}
                       css={`
                         max-width: 160px;
                       `}
