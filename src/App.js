@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "./components/Navbar";
 import GlobalStyle from "./globalStyles";
-import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
+import { Route, HashRouter as Router, Switch } from "react-router-dom";
 import PhotoGallery from "./pages/PhotoGallery";
 import Home from "./pages/Home";
 import Dropdown from "./components/Dropdown";
@@ -19,7 +19,7 @@ function App() {
     <div style={{margin:"0",
       padding:"0",
       minHeight:"100vh"}}>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename="/">
         <GlobalStyle />
         <Navbar toggle={toggle} />
         <Dropdown isOpen={isOpen} toggle={toggle} />

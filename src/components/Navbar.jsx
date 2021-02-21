@@ -117,7 +117,7 @@ const Navbar = ({ toggle }) => {
   return (
     <Nav navBackground={navBackground}>
       <Logo to="/">
-        <h1>PEHEL</h1>
+        <h1>PEHEL - We for You</h1>
       </Logo>
       <MenuBars onClick={toggle} />
       <NavMenu>
