@@ -26,7 +26,7 @@ const Heading = styled.div`
   padding: 15px 15px;
 
   h1 {
-    font-size: clamp(1rem, 2vw, 1.5rem);
+    font-size: clamp(1rem, 2vw, 2rem);
   }
 
   p {
@@ -38,11 +38,13 @@ const Container = styled.div`
   text-align: center;
   overflow:hidden;
   h1 {
+    padding:10px;
     transition: 0.3s ease;
     position: absolute;
     top: 50%;
     left: 50%;
     color: #fff;
+    font-size: clamp(1rem, 2vw, 1.5rem);
     text-transform: uppercase;
     transform: translate(-50%, -50%);
   }

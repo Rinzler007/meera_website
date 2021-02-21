@@ -7,11 +7,11 @@ const Section = styled.section`
   width: 100%;
   height: 100%;
   padding: 4rem 4rem;
-  
   background-color: ${({ primary }) => (primary ? "#fff" : "#000d1a")};
 `;
+
 const Container = styled.div`
-  padding: 3rem calc((100vw-1300px) / 2);
+  padding: 3rem calc((100vw-1000px) / 2);
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: ${({ height }) => (height)};
@@ -59,7 +59,7 @@ const ColumnRight = styled.div`
     object-fit: cover;
     border-radius:10px;
     @media screen and (max-width: 768px) {
-      width: 90%;
+      width: 100%;
       height: 90%;
     }
   }
