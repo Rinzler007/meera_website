@@ -6,7 +6,7 @@ import basta1 from '../images/projects/basta1.jpeg';
 export const SliderData=[
     {
         title:'INDIWALK',
-        description:'Chale Chal | 6th and 7th March 2021',
+        description:'Chale Chal, Virtual| 6th and 7th March 2021',
         path: "https://www.townscript.com/e/indiwalk-pehel-we-for-you-114232",
         label: 'Register Now',
         image: indiwalk,

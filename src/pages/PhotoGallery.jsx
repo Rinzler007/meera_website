@@ -88,7 +88,6 @@ const PhotoGallery = () => {
           </GalleryWrapper>
         </SRLWrapper>
       </Section>
-      <FlipCard/>
     </div>
   );
 };
