@@ -81,7 +81,7 @@ const ColumnRight = styled.div`
     order: ${({ reverse }) => (reverse ? "2" : "1")};
   }
 `;
-const Btn=styled.div`
+const Btn=styled.a`
 transition:0.3s ease-in-out;
 margin:15px 17px;
 padding:10px 15px;
@@ -92,6 +92,10 @@ display:flex;
 justify-content:center;
 align-items:center;
 background:#cd853f;
+text-decoration:none;
+color:#000;
+font-weight:bold;
+font-size:.8rem;
 
 &:hover{
     transform:scale(1.1);
@@ -128,8 +132,7 @@ const CarouselSection = ({textData, carouselData, team}) => {
                       </i>
                           </div>
                       ):
-                      <Btn>
-                        <a href={item.src}></a>
+                      <Btn href={item.src}>
                           Know More
                       </Btn>
                           
