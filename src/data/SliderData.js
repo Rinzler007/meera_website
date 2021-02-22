@@ -2,8 +2,16 @@ import indiwalk from '../images/projects/indiwalk.jpg';
 import mahina from '../images/projects/mahina.jpeg';
 import ujjwala from '../images/projects/ujjwala.jpeg';
 import basta1 from '../images/projects/basta1.jpeg';
+import main from '../images/main.jpg';
 
 export const SliderData=[
+    {
+        title:'We\'re',
+        tags:['Passionate','Empowered','Hopeful','Enthusiastic','Leaders'  ],
+        path: '/',
+        image: main,
+        alt:'Main',
+    },
     {
         title:'INDIWALK',
         description:'Chale Chal , Virtual | 6th and 7th March 2021',
@@ -35,7 +43,8 @@ export const SliderData=[
         label: 'View Project',
         image: ujjwala,
         alt:'Project',
-    }
+    },
+    
 ];
 
 // export const SliderDataTwo=[

@@ -3,6 +3,7 @@ import { IoMdArrowRoundForward } from "react-icons/io";
 import { IoArrowBack, IoArrowForward } from "react-icons/io5";
 import styled, { css } from "styled-components/macro";
 import { Button, SliderButton } from "./Button";
+import ReactTypingEffect from "react-typing-effect";
 
 const HeroSection = styled.section`
   height: 100vh;
@@ -93,6 +94,30 @@ const HeroContent = styled.div`
   }
 `;
 
+const MainContent = styled.div`
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  left: 10vw;
+  flex-direction: row;
+  max-width: 1600px;
+  width: calc(100%-100px);
+  color: #fff;
+
+  h1 {
+    font-size: clamp(3rem, 8vw, 4rem);
+    font-weight: 400;
+    margin-right:.4rem;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+    text-align: left;
+    margin-bottom: 0.8rem;
+  }
+`;
+const TagText = styled(ReactTypingEffect)`
+  color: #cd853f;
+  font-size: clamp(3rem, 8vw, 4rem);
+`;
+
 const Arrow = styled(IoMdArrowRoundForward)`
   margin-left: 0.5rem;
 `;
@@ -104,6 +129,7 @@ const SliderButtons = styled.div`
   display: flex;
   z-index: 10;
 `;
+
 const arrowButtons = css`
   width: 50px;
   height: 50px;
@@ -174,24 +200,30 @@ const Hero = ({ slides }) => {
               {index === current && (
                 <HeroSlider>
                   <HeroImage src={slide.image} alt={slide.alt} />
-                  <HeroContent>
-                    <h1>{slide.title}</h1>
-                    <p>{slide.description}</p>
-                    <SliderButton
-                      primary="true"
-                      href={slide.path}
-                      css={`
-                        max-width: 160px;
-                      `}
-                    >
-                      {slide.label}
-                      <Arrow />
-                    </SliderButton>
-                  </HeroContent>
+                  {slide.alt == "Main" ? (
+                    <MainContent>
+                      <h1>{slide.title}</h1>
+                      <TagText text={[...slide.tags]} eraseDelay={2000} typingDelay={1500} eraseSpeed={100} speed={100}/>
+                    </MainContent>
+                  ) : (
+                    <HeroContent>
+                      <h1>{slide.title}</h1>
+                      <p>{slide.description}</p>
+                      <SliderButton
+                        primary="true"
+                        href={slide.path}
+                        css={`
+                          max-width: 160px;
+                        `}
+                      >
+                        {slide.label}
+                        <Arrow />
+                      </SliderButton>
+                    </HeroContent>
+                  )}
                 </HeroSlider>
               )}
             </HeroSlide>
-            
           );
         })}
         <SliderButtons>

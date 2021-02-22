@@ -20,6 +20,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",
     "react-spring": "^9.0.0-rc.3",
+    "react-typing-effect": "^2.0.4",
     "simple-react-lightbox": "^3.6.3",
     "styled-components": "^5.2.1",
     "web-vitals": "^1.0.1",

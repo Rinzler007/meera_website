@@ -9,9 +9,9 @@ import pehel from "../images/pehel.png";
 export const InfoData = {
   heading: "Who Are We?",
   paragraphOne:
-    "PEHEL-We For You is a social youth organization that works for the upliftment of the society by channelizing the power of Youth.",
+    "PEHEL-We For You is a social youth organization that works for the upliftment of the society by channelizing the power of Youth. We are also registered under Girl Up, an initiative by UNITED NATIONS Foundation.",
   paragraphTwo:
-    "PEHEL is paving the path towards Empowering society by promoting good health, sound education, and gender equality as they are essential building blocks of society. Our organization is working towards enhancing the lives of the people in the field of education & empowering them, creating a safe environment, and raising awareness.",
+    "\"We are the first and the only functioning Girl Up club in the state of Bihar.\"   Join us to Educate, Empower and Enlighten the World!  'EK PEHEL KARKE TOH DEKHO'  ",
   buttonLabel: "Know More",
   image: ImageOne,
   reverse: false,
@@ -43,11 +43,11 @@ export const VisionData = {
 };
 
 export const ProjData = {
-  heading: "Striving Together",
+  heading: "Global Leadership Summit, Girl Up United Nations Foundation",
   paragraphOne:
-    "PEHEL - WE FOR YOU has always actively taken steps towards raising awareness about issues that society might not consider appropriate to talk about",
+    "Girl Up, an initiative by UNITED NATIONS FOUNDATION took a step to connect everyone globally. Girl Up organized the three days event GLOBAL LEADERSHIP SUMMIT 2020. In the history of GIRL UP, it was the first time that the SUMMIT was conducted virtually. Team PEHEL was fortunate enough to secure a place as the panelist at the summit. Our founder Ms. Shikha Swaraj, a young changemaker was selected for the Inspire Session and represented our country, India. The session was on the theme \"Aspiring to Inspire- Gender Parallelism and Climate Crisis”. ",
   paragraphTwo:
-    "We, the young torch bearers of the society, have taken an initiative to work for the upliftment of the people, by the people and for the people. We are dedicated individuals trying to initiate change by empowering our society.",
+    "Team PEHEL and its work were recognized globally which boosted the teams’ confidence and commitment to work. The summit was graced by the presence of distinguished guests Mrs. Priyanka Chopra, Mrs. Meghan Markle, Mrs. Hillary Clinton, Mrs. Micehelle Obama, and many other wonderful personalities. Be the change you want to see in the world. Change starts with one thought and a single action. “Aspire to Inspire!!”    ",
   buttonLabel: "Know More",
   image: together,
   reverse: false,
@@ -59,7 +59,7 @@ export const ImpactData = {
   paragraphOne:
     "PEHEL - We For You has been working tirelessly on different projects to make a world a better place to live in. Team PEHEL has worked towards Educating, Empowering and Enlightening the masses through awareness programs, educational sessions, campaigns and events.",
   paragraphTwo:
-    "Project Ujjwala has impacted more than 1500+ lives in the underprivileged section of the society which involves distribution of clothes, masks, sanitizers, diyas, candles.Project E-Basta has set a benchmark. Both the phases equipped more than 15 students towards a better livelihood. One phone, One teacher and a child changed a room into a classroom. Thus, creating and building a better life.",
+    "Project Ujjwala has impacted more than 1500+ lives in the underprivileged section of the society which involves distribution of clothes, masks, sanitizers, diyas, candles.Project E-Basta has set a benchmark. Both the phases equipped more than 15 students towards a better livelihood. One phone, One teacher and a child changed a room into a classroom. Thus, creating and building a better life. Various events and campaigns impacted hundreds of people directly and created awareness and made them informed. Team PEHEL is working every day to make the lives of the people if not best but better.    ",
   buttonLabel: "Know More",
   image: change,
   reverse: false,
@@ -70,9 +70,9 @@ export const ImpactData = {
 export const AboutData = {
   heading: "About Us",
   paragraphOne:
-    "PEHEL - We For You has been working tirelessly on different projects to make a world a better place to live in. Team PEHEL has worked towards Educating, Empowering and Enlightening the masses through awareness programs, educational sessions, campaigns and events.",
+    "PEHEL- We For You is paving the path towards Empowering society by promoting good health, sound education, and gender equality as they are essential building blocks of society. Our organization is working towards enhancing the lives of the people in the field of education & empowering them, creating a safe environment, and raising awareness.    ",
   paragraphTwo:
-    "Project Ujjwala has impacted more than 1500+ lives in the underprivileged section of the society which involves distribution of clothes, masks, sanitizers, diyas, candles.Project E-Basta has set a benchmark. Both the phases equipped more than 15 students towards a better livelihood. One phone, One teacher and a child changed a room into a classroom. Thus, creating and building a better life.",
+    "PEHEL - WE FOR YOU has always actively taken steps towards raising awareness about issues that society might not consider appropriate to talk about. We, the young torch bearers of the society and have taken an initiative to work for the upliftment of the people, by the people and for the people. We are dedicated individuals trying to initiate change by empowering our society.",
   buttonLabel: "Go Home",
   image: pehel,
   reverse: false,
@@ -82,9 +82,9 @@ export const AboutData = {
 export const StoryData = {
   heading: "Our Story",
   paragraphOne:
-    "It is true that whenever we think to start something we question ourselves 100 times. Will I be able to do it? Is it my right action ? Am I made for this ? and so many more. It’s seems impossible until it’s done. It is not us who holds us back but our fear of the unknown. ",
+    "Witnessing a harsh incident Shikha a high school student was introduced to the concept of discrimination and inequality. She was disappointed to see this and that hit her hard. Since then, she volunteered for every possible fieldwork she could do and help the vulnerable sections of society. She left no stone unturned to explore and understand the problems prevailing in our nation, the root cause of problems and analyze them deeply. She came with various ideas to eliminate the hindrances in the path of development of the nation. Her journey started in 2016 and her five years of experience taught her so much. She has been working under GIRL UP, an initiative of UNITED NATIONS FOUNDATION since 2018 and has been empowering young girls to work for their dreams. In 2020, when the pandemic had hit the country, Shikha wasn’t able to continue with her fieldwork. Then she decided to change the method of providing aid to the needy.",
   paragraphTwo:
-    "Maybe we are cent percent sure about doing what we think but are somehow taken aback. It is very natural and it happens but what matters is that we don’t give up on our dreams, we defeat our fear, the reasons and that something which is holding us back. This happens quite a times. We are confident to do somethings but are somehow taken aback. It’s okay, It happens.",
+    "She along with her friends Shwetank Suman & Yashika Gupta initiated a social youth organization in the month of March named as PEHEL-We For You. We For You denotes- “We three are standing for you and with you.” It was not an easy start, the things were virtual, people were locked in homes but that could not stop us from doing what we wanted to work for the upliftment of society. It is always the action and intention that matters. The three had put their hearts & souls into PEHEL and later became a team of 15 individuals functioning in 2 cities Patna and Delhi with the purpose to serve others. We registered ourselves under Girl Up and became the first and the only functioning Girl Up club in the state of Bihar.  We realized that to initiate is the beginning to bring the change and thus our tag line says “EK PEHEL KARKE TO DEKHO. “",
   buttonLabel: "Go Home",
   image: story,
   reverse: false,

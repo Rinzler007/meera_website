@@ -143,7 +143,7 @@ const Footer = ({ reverse }) => {
           <p>pehel.weforyou@gmail.com</p>
         </ColumnRight>
       </Container>
-      <FooterText>{"\u00A9"} DESIGNED BY VINEET UPADHYAY (ENACTUS THAPAR)</FooterText>
+      <FooterText>{"\u00A9"} DESIGNED BY VINEET UPADHYAY</FooterText>
     </Section>
   );
 };

@@ -51,7 +51,7 @@ const FooterText = styled.div`
   margin-top:2rem;
   justify-content: center;
   align-items: center;
-  font-size: clamp(1rem,2vw,1.2rem);
+  font-size: clamp(.8rem, 1.5vw, 1rem);
   color: #384053;
   bottom: 2px;
   font-weight: bold;
