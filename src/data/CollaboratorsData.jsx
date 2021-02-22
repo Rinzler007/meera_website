@@ -18,7 +18,7 @@ export const CollaboratorsData = [
     image: enactus,
     src: "https://www.enactusthapar.me",
   },
-  { name: "Karegar", image: karegar, src: "https://www.enactusthapar.me" },
+  { name: "Karegar", image: karegar, src: "https://www.karegar.ml" },
   {
     name: "Hello Study Global",
     image: hsg,
