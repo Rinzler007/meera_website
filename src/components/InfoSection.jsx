@@ -8,6 +8,10 @@ const Section = styled.section`
   height: 100%;
   padding: 3rem 2rem;
   background-color: ${({ primary }) => (primary ? "#fff" : "#000d1a")};
+  @media screen and (max-width: 768px) {
+    padding:20px 20px;
+    grid-template-columns: 1fr;
+  }
 `;
 
 const Container = styled.div`
@@ -22,6 +26,7 @@ const Container = styled.div`
     grid-template-columns: 1fr;
   }
 `;
+
 const ColumnLeft = styled.div`
   display: flex;
   flex-direction: column;
@@ -31,26 +36,30 @@ const ColumnLeft = styled.div`
   line-height: 1.4;
   padding: 1rem 2rem;
   order: ${({ reverse }) => (reverse ? "2" : "1")};
-
   h1 {
     margin-bottom: 1 rem;
     color: ${({ primary }) => (primary ? "#000d1a" : "#fff")};
     font-size: clamp(1.5rem, 6vw, 2rem);
   }
-
   p {
     color: ${({ primary }) => (primary ? "#000d1a" : "#fff")};
     margin-bottom: 2rem;
   }
+  @media screen and (max-width: 768px) {
+    padding:20px 20px;
+    order: ${({ reverse }) => (reverse ? "2" : "1")};
+
+  }
 `;
+
 const ColumnRight = styled.div`
   padding: 1rem 2rem;
   order: ${({ reverse }) => (reverse ? "1" : "2")};
   display: flex;
   justify-content: center;
   align-items: center;
-
   @media screen and (max-width: 768px) {
+    padding:20px 20px;
     order: ${({ reverse }) => (reverse ? "2" : "1")};
   }
   img {

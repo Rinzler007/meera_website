@@ -105,7 +105,7 @@ const MainContent = styled.div`
   color: #fff;
 
   h1 {
-    font-size: clamp(3rem, 8vw, 4rem);
+    font-size: clamp(1.5rem, 8vw, 4rem);
     font-weight: 400;
     margin-right:.4rem;
     text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
@@ -115,7 +115,7 @@ const MainContent = styled.div`
 `;
 const TagText = styled(ReactTypingEffect)`
   color: #cd853f;
-  font-size: clamp(3rem, 8vw, 4rem);
+  font-size: clamp(1.5rem, 8vw, 4rem);
 `;
 
 const Arrow = styled(IoMdArrowRoundForward)`
@@ -141,7 +141,6 @@ const arrowButtons = css`
   margin-right: 1rem;
   user-select: none;
   transition: 0.3s;
-
   &:hover {
     background: #cd853f;
     transform: scale(1.05);

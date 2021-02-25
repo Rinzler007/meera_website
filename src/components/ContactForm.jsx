@@ -32,16 +32,14 @@ const Submit = styled.div`
 `;
 const Form = styled.div`
   color: #fff;
-
   input,
   textarea {
     font-size: 1rem;
     border-radius: 5px;
     border: 1px solid #000d1a;
     padding: 10px 14px;
-    min-width: 300px;
+    min-width: 400px;
     width: 500px;
-
     @media screen and (max-width: 768px) {
       width: 250px;
     }

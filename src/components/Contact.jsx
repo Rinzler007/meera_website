@@ -10,6 +10,11 @@ const Section = styled.section`
   padding: 4rem 4rem;
   padding-bottom:25px;
   background: #000d1a;
+  
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+    padding: 10px 10px;
+  }
 `;
 const Container = styled.div`
   padding: 3rem calc((100vw-1300px) / 2);
@@ -22,6 +27,7 @@ const Container = styled.div`
 
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
+    padding: 10px 10px;
   }
 `;
 const ColumnLeft = styled.div`
