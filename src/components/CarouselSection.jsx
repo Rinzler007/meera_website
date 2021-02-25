@@ -96,6 +96,7 @@ text-decoration:none;
 color:#000;
 font-weight:bold;
 font-size:.8rem;
+color:#fff;
 
 &:hover{
     transform:scale(1.1);

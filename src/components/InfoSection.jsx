@@ -103,9 +103,7 @@ const InfoSection = ({
             <p>{branch}</p>
               </div> }
             
-            <Button to="/" primary={primary}>
-              {buttonLabel}
-            </Button>
+            
           </ColumnLeft>
         </Fade>
         <Fade right>

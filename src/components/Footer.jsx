@@ -64,7 +64,7 @@ const FooterText = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 1rem;
-  font-size: clamp(.8rem, 1.5vw, 1rem);
+  font-size: clamp(0.8rem, 1.5vw, 1rem);
   color: #384053;
   bottom: 2px;
   font-weight: bold;
@@ -103,10 +103,7 @@ const Footer = ({ reverse }) => {
             Social Links :
           </h2>
           <Row>
-            <SocialLink
-              href=
-                  "https://instagram.com/pehel.weforyou?igshid=1flftpz01arw2"
-            >
+            <SocialLink href="https://instagram.com/pehel.weforyou?igshid=1flftpz01arw2">
               <AiFillInstagram
                 style={{ color: "#cd853f", height: "40px", width: "40px" }}
               />
@@ -116,16 +113,12 @@ const Footer = ({ reverse }) => {
                 style={{ color: "#cd853f", height: "40px", width: "40px" }}
               />
             </SocialLink>
-            <SocialLink
-              href="https://www.facebook.com/pehel.weforyou/"
-            >
+            <SocialLink href="https://www.facebook.com/pehel.weforyou/">
               <FaFacebook
                 style={{ color: "#cd853f", height: "35px", width: "35px" }}
               />
             </SocialLink>
-            <SocialLink
-              href="https://www.linkedin.com/company/pehel"
-            >
+            <SocialLink href="https://www.linkedin.com/company/pehel">
               <FiLinkedin
                 style={{ color: "#cd853f", height: "35px", width: "35px" }}
               />
@@ -135,8 +128,8 @@ const Footer = ({ reverse }) => {
         <ColumnRight>
           <h1>Address :</h1>
           <p>
-            North -West Area of, Gandhi Maidan Rd,
-            <br /> Patna, Bihar-800001
+            Arjuna Jk Tower, Gandhi Maidan West,
+            <br /> Patna 800001 Bihar
           </p>
           <br />
           <h1>Mail Us :</h1>

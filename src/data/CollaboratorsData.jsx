@@ -7,7 +7,6 @@ import indian_handicraft from "../images/collab/indian_handicraft.jpg";
 import karmacare from "../images/collab/karmacare.jpg";
 import raahat from "../images/collab/raahat.jpeg";
 import streedhan from "../images/collab/streedhan.jpeg";
-import trijog from "../images/collab/trijog.jpg";
 import vitamin_stree from "../images/collab/vitamin_stree.jpg";
 import WOC from "../images/collab/WOC.PNG";
 import youthformentalhealth from "../images/collab/youthformentalhealth.jpg";
@@ -38,7 +37,6 @@ export const CollaboratorsData = [
   { name: "Karmacare", image: karmacare, src: "https://www.enactusthapar.me" },
   { name: "Raahat", image: raahat, src: "https://www.enactusthapar.me" },
   { name: "Streedhan", image: streedhan, src: "https://www.enactusthapar.me" },
-  { name: "Trijog", image: trijog, src: "https://www.enactusthapar.me" },
   {
     name: "Vitamin Stree",
     image: vitamin_stree,
