@@ -13,7 +13,7 @@ const About = () => {
        paddingBottom:"50px"
      }}></div>
       <InfoSection {...AboutData} about="true"/>
-      <InfoSection {...InfoData} primary="true"/>
+      <InfoSection {...InfoData} primary="true" about="true"/>
       <InfoSection {...StoryData}/>
       <CarouselSection team="true" textData={TeamHeading} carouselData={TeamData}/>
       <Contact/>

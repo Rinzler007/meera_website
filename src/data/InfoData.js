@@ -1,4 +1,4 @@
-import ImageOne from "../images/info1.jpg";
+import ImageOne from "../images/info1.png";
 import ImageTwo from "../images/info2.jpg";
 import ImageThree from "../images/info3.jpg";
 import change from "../images/change.jpg";
