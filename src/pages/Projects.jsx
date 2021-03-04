@@ -15,7 +15,7 @@ const Projects = () => {
           paddingBottom: "60px",
         }}
       ></div>
-      <InfoSection {...ProjData}/>
+      <InfoSection {...ProjData} about="true"/>
       <CommonEvent data={ProjectData} primary="true" project="true"/>
       <InfoSection {...ImpactData} />
       <CommonEvent primary="true" data={EventData}/>

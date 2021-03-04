@@ -109,7 +109,11 @@ const CarouselSection = ({textData, carouselData, team}) => {
         <Fade left>
           <ColumnLeft>
             <h1>{textData.heading}</h1>
+            <br/>
             <p>
+              {team&&
+              <h3>“Team never stands for I, it is WE.” </h3>
+              }
               {textData.paragraph}
             </p>
           </ColumnLeft>

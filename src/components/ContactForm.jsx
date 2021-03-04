@@ -5,10 +5,12 @@ import { useForm } from "react-hook-form";
 const Email = styled.div`
   margin-bottom: 10px;
 `;
+
 const Name = styled.div`
   margin-bottom: 10px;
   margin-top: 20px;
 `;
+
 const Message = styled.div`
   margin-bottom: 10px;
 `;
@@ -30,6 +32,7 @@ const Submit = styled.div`
     }
   }
 `;
+
 const Form = styled.div`
   color: #fff;
   input,

@@ -59,7 +59,7 @@ const ColumnRight = styled.div`
   justify-content: center;
   align-items: center;
   @media screen and (max-width: 768px) {
-    padding:20px 20px;
+    padding: 20px 20px;
     order: ${({ reverse }) => (reverse ? "2" : "1")};
   }
   img {

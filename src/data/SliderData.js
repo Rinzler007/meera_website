@@ -3,20 +3,30 @@ import mahina from '../images/projects/mahina.jpeg';
 import ujjwala from '../images/projects/ujjwala.jpeg';
 import basta1 from '../images/projects/basta1.jpeg';
 import main from '../images/main.jpg';
+import pehelTeam from '../images/pehel.jpg';
 
 export const SliderData=[
     {
         title:'We\'re',
-        tags:['Passionate','Empowered','Hopeful','PEHEL'],
+        tags:['Passionate','Empowered','Hopeful','Enthusiastic','Leaders'],
         path: '/',
         image: main,
         alt:'Main',
+    },
+    {
+        title:'Pehel - We for You',
+        description:'Ek Pehel Karke toh Dekho...',
+        path: "#/about",
+        label: 'About Us',
+        image: pehelTeam,
+        alt:'Team',
     },
     {
         title:'INDIWALK',
         description:'Chale Chal , Virtual | 6th and 7th March 2021',
         path: "https://www.townscript.com/e/indiwalk-pehel-we-for-you-114232",
         label: 'Register Now',
+        path:'#/projects',
         image: indiwalk,
         alt:'Event',
     },
@@ -26,6 +36,7 @@ export const SliderData=[
         path: '/',
         label: 'View Project',
         image: mahina,
+        path:'#/projects',
         alt:'Project',
     },
     {
@@ -34,6 +45,7 @@ export const SliderData=[
         path: '/',
         label: 'View Project',
         image: basta1,
+        path:'#/projects',
         alt:'Project',
     },
     {
@@ -42,6 +54,7 @@ export const SliderData=[
         path: '/',
         label: 'View Project',
         image: ujjwala,
+        path:'#/projects',
         alt:'Project',
     },
     

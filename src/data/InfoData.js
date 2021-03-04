@@ -2,7 +2,7 @@ import ImageOne from "../images/info1.png";
 import ImageTwo from "../images/info2.jpg";
 import ImageThree from "../images/info3.jpg";
 import change from "../images/change.jpg";
-import together from "../images/together.jpg";
+import girlup from "../images/info1.png";
 import story from "../images/info4.jpg";
 import pehel from "../images/pehel.png";
 
@@ -49,7 +49,7 @@ export const ProjData = {
   paragraphTwo:
     "Team PEHEL and its work were recognized globally which boosted the teams’ confidence and commitment to work. The summit was graced by the presence of distinguished guests Mrs. Priyanka Chopra, Mrs. Meghan Markle, Mrs. Hillary Clinton, Mrs. Micehelle Obama, and many other wonderful personalities. Be the change you want to see in the world. Change starts with one thought and a single action. “Aspire to Inspire!!”    ",
   buttonLabel: "Know More",
-  image: together,
+  image: girlup,
   reverse: false,
   delay: 100,
 };
