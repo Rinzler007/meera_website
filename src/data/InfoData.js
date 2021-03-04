@@ -2,7 +2,7 @@ import ImageOne from "../images/info1.png";
 import ImageTwo from "../images/info2.jpg";
 import ImageThree from "../images/info3.jpg";
 import change from "../images/change.jpg";
-import girlup from "../images/info1.png";
+import girlup from "../images/global.png";
 import story from "../images/info4.jpg";
 import pehel from "../images/pehel.png";
 

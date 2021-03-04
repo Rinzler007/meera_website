@@ -7,9 +7,10 @@ import indian_handicraft from "../images/collab/indian_handicraft.jpg";
 import karmacare from "../images/collab/karmacare.jpg";
 import raahat from "../images/collab/raahat.jpeg";
 import streedhan from "../images/collab/streedhan.jpeg";
-import vitamin_stree from "../images/collab/vitamin_stree.jpg";
 import WOC from "../images/collab/WOC.PNG";
 import youthformentalhealth from "../images/collab/youthformentalhealth.jpg";
+import museum from '../images/collab/museum.png';
+import uva from '../images/collab/uva.png';
 
 export const CollaboratorsData = [
   {
@@ -38,8 +39,13 @@ export const CollaboratorsData = [
   { name: "Raahat", image: raahat, src: "https://www.enactusthapar.me" },
   { name: "Streedhan", image: streedhan, src: "https://www.enactusthapar.me" },
   {
-    name: "Vitamin Stree",
-    image: vitamin_stree,
+    name: "State Museum, Ranchi",
+    image: museum,
+    src: "https://www.enactusthapar.me",
+  },
+  {
+    name: "Uva's Sports",
+    image: uva,
     src: "https://www.enactusthapar.me",
   },
   { name: "WOC", image: WOC, src: "https://www.enactusthapar.me" },

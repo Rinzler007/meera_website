@@ -8,7 +8,7 @@ import pehelTeam from '../images/pehel.jpg';
 export const SliderData=[
     {
         title:'We\'re',
-        tags:['Passionate','Empowered','Hopeful','Enthusiastic','Leaders'],
+        tags:['Passionate','Empowered','Hopeful','Enthusiastic','Leaders','PEHEL'],
         path: '/',
         image: main,
         alt:'Main',
