@@ -61,12 +61,12 @@ const ColumnLeft = styled.div`
 
   h1 {
     margin-bottom: 1 rem;
-    color: #000d1a;
+    color: #0D1821;
     font-size: clamp(1.5rem, 6vw, 2rem);
   }
 
   p {
-    color: #000d1a;
+    color: #0D1821;
     margin-bottom: 2rem;
   }
 `;
@@ -91,7 +91,7 @@ height:60px;
 display:flex;
 justify-content:center;
 align-items:center;
-background:#cd853f;
+background:#22AAA1;
 text-decoration:none;
 color:#000;
 font-weight:bold;

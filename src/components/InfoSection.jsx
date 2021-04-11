@@ -7,7 +7,7 @@ const Section = styled.section`
   width: 100%;
   height: 100%;
   padding: 3rem 2rem;
-  background-color: ${({ primary }) => (primary ? "#fff" : "#000d1a")};
+  background-color: ${({ primary }) => (primary ? "#fff" : "#0D1821")};
   @media screen and (max-width: 768px) {
     padding:20px 20px;
     grid-template-columns: 1fr;
@@ -38,11 +38,11 @@ const ColumnLeft = styled.div`
   order: ${({ reverse }) => (reverse ? "2" : "1")};
   h1 {
     margin-bottom: 1 rem;
-    color: ${({ primary }) => (primary ? "#000d1a" : "#fff")};
+    color: ${({ primary }) => (primary ? "#0D1821" : "#fff")};
     font-size: clamp(1.5rem, 6vw, 2rem);
   }
   p {
-    color: ${({ primary }) => (primary ? "#000d1a" : "#fff")};
+    color: ${({ primary }) => (primary ? "#0D1821" : "#fff")};
     margin-bottom: 2rem;
   }
   @media screen and (max-width: 768px) {

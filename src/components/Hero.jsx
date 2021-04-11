@@ -114,7 +114,7 @@ const MainContent = styled.div`
   }
 `;
 const TagText = styled(ReactTypingEffect)`
-  color: #cd853f;
+  color: #22AAA1;
   font-size: clamp(1.5rem, 8vw, 4rem);
 `;
 
@@ -135,14 +135,14 @@ const arrowButtons = css`
   height: 50px;
   color: #fff;
   cursor: pointer;
-  background: #000d1a;
+  background: #0D1821;
   border-radius: 50px;
   padding: 10px;
   margin-right: 1rem;
   user-select: none;
   transition: 0.3s;
   &:hover {
-    background: #cd853f;
+    background: #22AAA1;
     transform: scale(1.05);
   }
 `;

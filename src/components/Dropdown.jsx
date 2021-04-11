@@ -10,7 +10,7 @@ const DropdownContainer = styled.div`
   z-index: 999;
   width: 100%;
   height: 100%;
-  background: #cd853f;
+  background: #22AAA1;
   display: grid;
   align-items: center;
   top: ${({isOpen})=>(isOpen?'0':'-100%')};
@@ -30,7 +30,7 @@ outline:none;
 `;
 
 const CloseIcon = styled(FaTimes)`
-color:#000d1a;
+color:#0D1821;
 `;
 
 const DropdownWrapper = styled.div``;
@@ -60,7 +60,7 @@ cursor: pointer;
 transition:0.2s ease-in-out;
 
 &:hover{
-    color:#000d1a;
+    color:#0D1821;
 }
 `;
 

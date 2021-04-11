@@ -21,7 +21,7 @@ const Submit = styled.div`
     width: 400px;
     padding: 10px 14px;
     border-radius: 5px;
-    border: 1px solid #000d1a;
+    border: 1px solid #0D1821;
     background: #ec851d;
     font-size: 1rem;
     color: #fff;
@@ -39,7 +39,7 @@ const Form = styled.div`
   textarea {
     font-size: 1rem;
     border-radius: 5px;
-    border: 1px solid #000d1a;
+    border: 1px solid #0D1821;
     padding: 10px 14px;
     min-width: 400px;
     width: 500px;

@@ -11,7 +11,7 @@ const Section = styled.section`
   padding: 4rem 2rem;
   padding-bottom: 25px;
   position: relative;
-  background: #000d1a;
+  background: #0D1821;
 `;
 
 const Container = styled.div`
@@ -52,7 +52,7 @@ const ColumnRight = styled.div`
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  border-left: thick solid #cd853f;
+  border-left: thick solid #22AAA1;
 
   @media screen and (max-width: 768px) {
     order: ${({ reverse }) => (reverse ? "2" : "1")};
@@ -92,7 +92,7 @@ const Footer = ({ reverse }) => {
     <Section>
       <Container>
         <ColumnLeft>
-          <h1 style={{ marginLeft: "8px" }}>PEHEL - We For You</h1>
+          <h1 style={{ marginLeft: "8px" }}>Project MEERA</h1>
           <h2
             style={{
               marginTop: "1rem",
@@ -105,34 +105,34 @@ const Footer = ({ reverse }) => {
           <Row>
             <SocialLink href="https://instagram.com/pehel.weforyou?igshid=1flftpz01arw2">
               <AiFillInstagram
-                style={{ color: "#cd853f", height: "40px", width: "40px" }}
+                style={{ color: "#22AAA1", height: "40px", width: "40px" }}
               />
             </SocialLink>
             <SocialLink href=" https://youtube.com/channel/UC9m7YFaeTpDNZoMvbygnACw">
               <AiFillYoutube
-                style={{ color: "#cd853f", height: "40px", width: "40px" }}
+                style={{ color: "#22AAA1", height: "40px", width: "40px" }}
               />
             </SocialLink>
             <SocialLink href="https://www.facebook.com/pehel.weforyou/">
               <FaFacebook
-                style={{ color: "#cd853f", height: "35px", width: "35px" }}
+                style={{ color: "#22AAA1", height: "35px", width: "35px" }}
               />
             </SocialLink>
             <SocialLink href="https://www.linkedin.com/company/pehel">
               <FiLinkedin
-                style={{ color: "#cd853f", height: "35px", width: "35px" }}
+                style={{ color: "#22AAA1", height: "35px", width: "35px" }}
               />
             </SocialLink>
           </Row>
         </ColumnLeft>
         <ColumnRight>
-          <h1>Address :</h1>
+          <h1 style={{ color: "#22AAA1"}}>Address :</h1>
           <p>
             Arjuna Jk Tower, Gandhi Maidan West,
             <br /> Patna 800001 Bihar
           </p>
           <br />
-          <h1>Mail Us :</h1>
+          <h1 style={{ color: "#22AAA1"}}>Mail Us :</h1>
           <p>pehel.weforyou@gmail.com</p>
         </ColumnRight>
       </Container>

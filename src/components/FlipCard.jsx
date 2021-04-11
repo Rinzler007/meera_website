@@ -22,7 +22,7 @@ const Heading = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: ${({ primary }) => (primary ? "#e7e7e7" : "#000d1a")};
+  color: ${({ primary }) => (primary ? "#e7e7e7" : "#0D1821")};
   padding: 15px 15px;
 
   h1 {

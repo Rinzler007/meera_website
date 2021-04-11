@@ -24,7 +24,7 @@ const Heading = styled.div`
   text-align: center;
   justify-content: center;
   align-items: center;
-  color: #000d1a;
+  color: #0D1821;
   font-size: clamp(2rem, 4vw, 3rem);
   font-weight: 600;
 

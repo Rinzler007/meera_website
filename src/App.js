@@ -2,12 +2,10 @@ import React, { useState } from "react";
 import Navbar from "./components/Navbar";
 import GlobalStyle from "./globalStyles";
 import { Route, HashRouter as Router, Switch } from "react-router-dom";
-import PhotoGallery from "./pages/PhotoGallery";
 import Home from "./pages/Home";
 import Dropdown from "./components/Dropdown";
 import About from "./pages/About";
-import Projects from "./pages/Projects";
-import Donate from "./pages/Donate";
+import Events from "./pages/Events";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,10 +26,8 @@ function App() {
           <Route exact path="/">
             <Home toggle={toggle} />
           </Route>
-          <Route exact path="/gallery" component={PhotoGallery} />
           <Route exact path="/about" component={About} />
-          <Route exact path="/donate" component={Donate} />
-          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/events" component={Events} />
         </Switch>
       </Router>
     </div>

@@ -14,7 +14,7 @@ const Nav = styled.nav`
   position: fixed;
   width: 100%;
   background: ${({ navBackground }) =>
-    navBackground ? "#cd853f" : "transparent"};
+    navBackground ? "#22AAA1" : "transparent"};
   transition: 0.4s ease-in;
 `;
 
@@ -31,7 +31,7 @@ const Navlink = css`
 const Logo = styled(NavLink)`
   ${Navlink}
   color: #fff;
-  font-style: italic;
+  font-style: bold;
 `;
 
 const MenuBars = styled(BiMenuAltRight)`
@@ -51,7 +51,7 @@ const MenuBars = styled(BiMenuAltRight)`
 `;
 
 const NavMenu = styled.div`
-  margin-right: -48px;
+  /* margin-left: 10px; */
   display: flex;
   align-items: center;
 
@@ -72,19 +72,19 @@ const NavMenuLinks = styled(NavLink).attrs({
 
   &.${activeClassName} {
     background-color: #fff;
-    color: #000d1a;
+    color: #0D1821;
   }
 
   &:hover {
     background-color: #fff;
-    color: #000d1a;
+    color: #0D1821;
     padding: 20px 14px;
   }
 `;
 
 const activeBtn = css`
   background-color: #fff;
-  color: #000d1a;
+  color: #0D1821;
   padding: 20px 14px;
 `;
 
@@ -117,7 +117,7 @@ const Navbar = ({ toggle }) => {
   return (
     <Nav navBackground={navBackground}>
       <Logo to="/">
-        <h1>PEHEL - We For You</h1>
+        <h1>Project MEERA</h1>
       </Logo>
       <MenuBars onClick={toggle} />
       <NavMenu>
@@ -127,10 +127,9 @@ const Navbar = ({ toggle }) => {
           </NavMenuLinks>
         ))}
       </NavMenu>
-      <NavMenu></NavMenu>
       <NavBtn>
         <Button to="/donate" primary="true">
-          Donate Now
+          Adopt Now
         </Button>
       </NavBtn>
     </Nav>

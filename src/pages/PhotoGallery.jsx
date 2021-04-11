@@ -32,7 +32,7 @@ const ImageComponent = styled.img`
 
 const Section = styled.section`
   padding: 5rem 4rem;
-  background: #000d1a;
+  background: #0D1821;
 `;
 
 const Heading = styled.div`

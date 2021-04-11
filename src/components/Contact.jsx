@@ -9,7 +9,7 @@ const Section = styled.section`
   height: 100%;
   padding: 4rem 4rem;
   padding-bottom:25px;
-  background: #000d1a;
+  background: #0D1821;
   
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;

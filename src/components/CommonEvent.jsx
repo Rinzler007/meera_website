@@ -6,7 +6,7 @@ import FlipCard from "./FlipCard";
 const Section = styled.section`
   width: 100%;
   padding: 4rem 4rem;
-  background-color: ${({ primary }) => (primary ? "#fff" : "#000d1a")};
+  background-color: ${({ primary }) => (primary ? "#fff" : "#0D1821")};
 `;
 
 const Container = styled.div`
@@ -20,7 +20,7 @@ const Container = styled.div`
 `;
 
 const CardContainer = styled.div`
-  background: ${({ primary }) => (!primary ? "#fff" : "#000d1a")};
+  background: ${({ primary }) => (!primary ? "#fff" : "#0D1821")};
   height: 449px;
   display:flex;
   justify-content:center;
@@ -47,7 +47,7 @@ const CommonEvent = ({ primary, data, project }) => {
               textAlign: "center",
               fontSize: "2.5rem",
               marginBottom: "3rem",
-              color: `${!primary ? "#fff" : "#000d1a"}`,
+              color: `${!primary ? "#fff" : "#0D1821"}`,
             }}
           >
             {project ? "OUR PROJECTS" : "OUR EVENTS"}

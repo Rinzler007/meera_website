@@ -11,12 +11,10 @@ const Projects = () => {
     <>
       <div
         style={{
-          background: "#000d1a",
+          background: "#0D1821",
           paddingBottom: "60px",
         }}
       ></div>
-      <InfoSection {...ProjData} />
-      <CommonEvent data={ProjectData} primary="true" project="true"/>
       <InfoSection {...ImpactData} />
       <CommonEvent primary="true" data={EventData}/>
       <Footer/>
