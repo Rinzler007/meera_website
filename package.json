@@ -7,6 +7,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "add": "^2.0.6",
+    "global": "^4.4.0",
     "install": "^0.13.0",
     "npm": "^7.5.4",
     "react": "^17.0.1",

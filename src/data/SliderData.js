@@ -1,59 +1,20 @@
-import indiwalk from '../images/projects/indiwalk.jpg';
-import mahina from '../images/projects/mahina.jpeg';
-import ujjwala from '../images/projects/ujjwala.jpeg';
-import basta1 from '../images/projects/basta1.jpeg';
-import main from '../images/main.jpg';
-import pehelTeam from '../images/pehel.jpg';
+import reef from '../images/events/reefreflect.jpg';
+import meera from '../images/meera1.jpg';
 
 export const SliderData=[
     {
         title:'We\'re',
-        tags:['Passionate','Empowered','Hopeful','Enthusiastic','Leaders','PEHEL'],
+        tags:['Leaders','Innovators','Meera'],
         path: '/',
-        image: main,
+        image: meera,
         alt:'Main',
     },
     {
-        title:'Pehel - We for You',
-        description:'Ek Pehel Karke toh Dekho...',
-        path: "#/about",
-        label: 'About Us',
-        image: pehelTeam,
-        alt:'Team',
-    },
-    {
-        title:'INDIWALK',
-        description:'Chale Chal , Virtual | 6th and 7th March 2021',
-        path: "https://www.townscript.com/e/indiwalk-pehel-we-for-you-114232",
-        label: 'Register Now',
-        path:'#/projects',
-        image: indiwalk,
-        alt:'Event',
-    },
-    {
-        title:'Project Mahina',
-        description:'PERIODS CAN’T STOP US !!',
+        title:'Reef Reflect',
+        description:' Raising a voice for those who can\'t | 17th April, 2021',
         path: '/',
-        label: 'View Project',
-        image: mahina,
-        path:'#/projects',
-        alt:'Project',
-    },
-    {
-        title:'Project Basta',
-        description:'A MISSION TO EDUCATE FOR CHANGE',
-        path: '/',
-        label: 'View Project',
-        image: basta1,
-        path:'#/projects',
-        alt:'Project',
-    },
-    {
-        title:'Project Ujjwala',
-        description:'EK DAAN ZARURAT-MANDO KE NAAM',
-        path: '/',
-        label: 'View Project',
-        image: ujjwala,
+        label: 'Know More',
+        image: reef,
         path:'#/projects',
         alt:'Project',
     },

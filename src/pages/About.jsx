@@ -9,10 +9,10 @@ const About = () => {
   return (
     <>
      <div style={{
-       background:"#0D1821",
+       background:"#0D0D26",
        paddingBottom:"50px"
      }}></div>
-      <InfoSection {...AboutData} about="true"/>
+      <InfoSection {...AboutData} about="true" height="70vh"/>
       <CarouselSection team="true" textData={TeamHeading} carouselData={TeamData}/>      
       <Footer />
     </>

@@ -11,7 +11,7 @@ const Section = styled.section`
   padding: 4rem 2rem;
   padding-bottom: 25px;
   position: relative;
-  background: #0D1821;
+  background: #0D0D26;
 `;
 
 const Container = styled.div`
@@ -52,7 +52,7 @@ const ColumnRight = styled.div`
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  border-left: thick solid #22AAA1;
+  border-left: thick solid #6DDAF2;
 
   @media screen and (max-width: 768px) {
     order: ${({ reverse }) => (reverse ? "2" : "1")};
@@ -92,7 +92,7 @@ const Footer = ({ reverse }) => {
     <Section>
       <Container>
         <ColumnLeft>
-          <h1 style={{ marginLeft: "8px" }}>Project MEERA</h1>
+          <h1 style={{ marginLeft: "8px" ,color:"#6DDAF2"}}>Get in Touch</h1>
           <h2
             style={{
               marginTop: "1rem",
@@ -105,38 +105,38 @@ const Footer = ({ reverse }) => {
           <Row>
             <SocialLink href="https://instagram.com/pehel.weforyou?igshid=1flftpz01arw2">
               <AiFillInstagram
-                style={{ color: "#22AAA1", height: "40px", width: "40px" }}
+                style={{ color: "#6DDAF2", height: "40px", width: "40px" }}
               />
             </SocialLink>
             <SocialLink href=" https://youtube.com/channel/UC9m7YFaeTpDNZoMvbygnACw">
               <AiFillYoutube
-                style={{ color: "#22AAA1", height: "40px", width: "40px" }}
+                style={{ color: "#6DDAF2", height: "40px", width: "40px" }}
               />
             </SocialLink>
             <SocialLink href="https://www.facebook.com/pehel.weforyou/">
               <FaFacebook
-                style={{ color: "#22AAA1", height: "35px", width: "35px" }}
+                style={{ color: "#6DDAF2", height: "35px", width: "35px" }}
               />
             </SocialLink>
             <SocialLink href="https://www.linkedin.com/company/pehel">
               <FiLinkedin
-                style={{ color: "#22AAA1", height: "35px", width: "35px" }}
+                style={{ color: "#6DDAF2", height: "35px", width: "35px" }}
               />
             </SocialLink>
           </Row>
         </ColumnLeft>
         <ColumnRight>
-          <h1 style={{ color: "#22AAA1"}}>Address :</h1>
+          <h1 style={{ color: "#6DDAF2"}}>Address :</h1>
           <p>
-            Arjuna Jk Tower, Gandhi Maidan West,
-            <br /> Patna 800001 Bihar
+            Thapar University, Patiala
+            <br /> Punjab - 147001
           </p>
           <br />
-          <h1 style={{ color: "#22AAA1"}}>Mail Us :</h1>
-          <p>pehel.weforyou@gmail.com</p>
+          <h1 style={{ color: "#6DDAF2"}}>Mail Us :</h1>
+          <p>projectmeeraofficial@gmail.com</p>
         </ColumnRight>
       </Container>
-      <FooterText>{"\u00A9"} DESIGNED BY VINEET UPADHYAY</FooterText>
+      <FooterText>{"\u00A9"} INITIATIVE BY ENACTUS THAPAR</FooterText>
     </Section>
   );
 };

@@ -2,7 +2,6 @@ import React from "react";
 import InfoSection from "../components/InfoSection";
 import { ImpactData, ProjData } from "../data/InfoData";
 import Footer from "../components/Footer";
-import { ProjectData } from "../data/ProjectData";
 import CommonEvent from "../components/CommonEvent";
 import { EventData } from "../data/EventData";
 
@@ -11,7 +10,7 @@ const Projects = () => {
     <>
       <div
         style={{
-          background: "#0D1821",
+          background: "#0D0D26",
           paddingBottom: "60px",
         }}
       ></div>

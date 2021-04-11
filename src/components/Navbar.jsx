@@ -14,7 +14,7 @@ const Nav = styled.nav`
   position: fixed;
   width: 100%;
   background: ${({ navBackground }) =>
-    navBackground ? "#22AAA1" : "transparent"};
+    navBackground ? "#130C40" : "transparent"};
   transition: 0.4s ease-in;
 `;
 
@@ -72,20 +72,19 @@ const NavMenuLinks = styled(NavLink).attrs({
 
   &.${activeClassName} {
     background-color: #fff;
-    color: #0D1821;
+    color: #0D0D26;
   }
 
   &:hover {
     background-color: #fff;
-    color: #0D1821;
+    color: #0D0D26;
     padding: 20px 14px;
   }
 `;
 
 const activeBtn = css`
-  background-color: #fff;
-  color: #0D1821;
-  padding: 20px 14px;
+ background-color: #280D8C;
+ padding: 20px 14px;
 `;
 
 const NavBtn = styled.div`
@@ -128,7 +127,7 @@ const Navbar = ({ toggle }) => {
         ))}
       </NavMenu>
       <NavBtn>
-        <Button to="/donate" primary="true">
+        <Button to="/" primary="true">
           Adopt Now
         </Button>
       </NavBtn>

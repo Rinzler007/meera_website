@@ -114,7 +114,7 @@ const MainContent = styled.div`
   }
 `;
 const TagText = styled(ReactTypingEffect)`
-  color: #22AAA1;
+  color: #fff;
   font-size: clamp(1.5rem, 8vw, 4rem);
 `;
 
@@ -135,14 +135,14 @@ const arrowButtons = css`
   height: 50px;
   color: #fff;
   cursor: pointer;
-  background: #0D1821;
+  background: #0D0D26;
   border-radius: 50px;
   padding: 10px;
   margin-right: 1rem;
   user-select: none;
   transition: 0.3s;
   &:hover {
-    background: #22AAA1;
+    background: #130C40;
     transform: scale(1.05);
   }
 `;
@@ -201,7 +201,7 @@ const Hero = ({ slides }) => {
                   <HeroImage src={slide.image} alt={slide.alt} />
                   {slide.alt == "Main" ? (
                     <MainContent>
-                      <h1>{slide.title}</h1>
+                      <h1 style={{color: "#6DDAF2"}}>{slide.title}</h1>
                       <TagText text={[...slide.tags]} eraseDelay={2000} typingDelay={1500} eraseSpeed={100} speed={100}/>
                     </MainContent>
                   ) : (

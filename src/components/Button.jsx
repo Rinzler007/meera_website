@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const Button = styled(Link)`
-  background: ${({ primary }) => (primary ? "#000d18" : "#22AAA1")};
+  background: ${({ primary }) => (primary ? "#280D8C" : "#130C40")};
   white-space:nowrap;
   outline:none;
   border:none;
@@ -17,7 +17,7 @@ export const Button = styled(Link)`
   justify-content:center;
   align-items:center;
   padding: ${({big})=>(big?'16px 40px':'14px 24px')};
-  color: ${({primary})=>(primary?'#fff':"#0D1821")};
+  color: ${({primary})=>(primary?'#fff':"#0D0D26")};
   font-size:${({big})=>(big?'20px':'14px')};
 
   &:hover{
@@ -26,7 +26,7 @@ export const Button = styled(Link)`
 `;
 
 export const SliderButton = styled.a`
-  background: ${({ primary }) => (primary ? "#000d18" : "#22AAA1")};
+  background: ${({ primary }) => (primary ? "#000d18" : "#130C40")};
   white-space:nowrap;
   outline:none;
   border:none;
@@ -41,7 +41,7 @@ export const SliderButton = styled.a`
   justify-content:center;
   align-items:center;
   padding: ${({big})=>(big?'16px 40px':'14px 24px')};
-  color: ${({primary})=>(primary?'#fff':"#0D1821")};
+  color: ${({primary})=>(primary?'#fff':"#0D0D26")};
   font-size:${({big})=>(big?'20px':'14px')};
 
   &:hover{

@@ -1,32 +1,32 @@
-import indiwalk from '../images/projects/indiwalk.jpg';
-import mental from '../images/projects/mental.jpg';
-import pride from '../images/projects/pride.jpg';
-import women from '../images/projects/women.jpg';
+import coraltele from '../images/events/coralvoice.jpg';
+import race from '../images/events/race.jpg';
+import reef from '../images/events/reefreflect.jpg';
+import web from '../images/events/web.jpg';
 
 export const EventData = [
     {
-      name: "INDIWALK",
-      image: indiwalk,
+      name: "REEF REFLECT",
+      image: reef,
       description:
-        " A nation-wide fundraising virtual walkathon for *Women in Sports* to reduce the gender gap in sports.",
+        " A nation-wide Panel Discussion on the importance of Corals.",
     },
     {
-      name: "Mental Health Awareness",
-      image: mental,
+      name: "RACE 4 OCEANS",
+      image: race,
       description:
-        "Our campaign covering self-care tips, letters of hope, seeking help and countering depression",
+        "A nation-wide awareness campaign for corals.",
     },
     {
-      name: "PRIDE",
-      image: pride,
+      name: "CORAL VOICE",
+      image: coraltele,
       description:
-        "The team dedicated a week full of activities in the name of LGBTQ+ and celebrated pride month with great pomp and show.",
+        "A talkshow with marine biologists and experts on corals.",
     },
     {
-      name: "End Gender-Based Violence",
-      image: women,
+      name: "CORAL ADOPTION PORTAL",
+      image: web,
       description:
-        "A week long campaign, about creating awareness in the masses about the legal rights of women.",
+        "A web-portal for coral adoption in India.",
     },
   ];
   
